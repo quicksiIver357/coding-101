@@ -22,7 +22,7 @@ def find_first_x_primes(x):
     return primes
 
 # Find first 50 primes
-x = 50
+x = int(input("Enter the number of prime numbers to plot: "))
 primes = find_first_x_primes(x)
 
 # Create y-values (index + 1 for each prime)
