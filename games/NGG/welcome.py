@@ -6,8 +6,6 @@ def welcome(times_played):
         sleep(3)
     except FileNotFoundError:
         print_text_file("games/NGG/text/intro/_.txt")
-
-
 def print_text_file(filepath, line_latency=0, print_error=False):
     try:
         # open file and print each line
@@ -27,6 +25,3 @@ def print_text_file(filepath, line_latency=0, print_error=False):
         if print_error:
             print(f"An error occurred: {e}")
         return e
-
-
-welcome(6)
