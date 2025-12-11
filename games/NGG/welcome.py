@@ -2,7 +2,7 @@ from time import sleep
 
 def welcome(times_played):
     try:
-        print_text_file(f"games/NGG/text/intro/{times_played}.txt", 0.5, True)
+        print_text_file(f"games/NGG/text/intro/{times_played}.txt", 0.5, True) 
         sleep(3)
     except FileNotFoundError:
         print_text_file("games/NGG/text/intro/_.txt")
