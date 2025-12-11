@@ -1,0 +1,19 @@
+{
+    "times played": 0,
+    "rolls": {
+        "total": {
+            "common": 0,
+            "rare": 0,
+            "epic": 0,
+            "ledgendary": 0
+        },
+        "owned": {
+            "common": 0,
+            "rare": 0,
+            "epic": 0,
+            "ledgendary": 0
+        }
+    },
+    "times rolled": 0,
+    "questions answered": 0
+}

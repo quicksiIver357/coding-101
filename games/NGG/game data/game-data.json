@@ -1,0 +1,29 @@
+{
+    "rarities" : {
+        "common" : {
+            "name" : "Common",
+            "color" : "white",
+            "weight" : 10000
+        },
+        "rare" : {
+            "name" : "Rare",
+            "color" : "green",
+            "weight" : 3500
+        },
+        "epic" : {
+            "name" : "Epic",
+            "color" : "purple",
+            "weight" : 850
+        },
+        "ledgendary" : {
+            "name" : "Ledgendary",
+            "color" : "orange",
+            "weight" : 105
+        },
+        "mythic" : {
+            "name" : "Mythic",
+            "color" : "red",
+            "weight" : 8
+        }
+    }
+}
